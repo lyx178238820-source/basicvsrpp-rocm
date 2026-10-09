@@ -144,7 +144,8 @@ python benchmarks/bench_hipgraph.py --weights weights/... --no-graph   # control
 - `models/mmagic/**` is vendored from [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic)
   (BasicVSR++ network); original SPDX headers kept (Apache-2.0 / AGPL-3.0).
 - `models/inference.py` and the checkpoint format come from
-  [Lada](https://github.com/qwekaze/lada) (AGPL-3.0); original SPDX headers kept.
+  [Lada](https://codeberg.org/ladaapp/lada) (AGPL-3.0; weights are published on
+  [Hugging Face](https://huggingface.co/ladaapp/lada)); original SPDX headers kept.
 - `engine.py` / `rocm_env.py` were extracted and adapted from the AMD build of
   [jasna](https://github.com/Kruk2/jasna).
 
