@@ -1,0 +1,8 @@
+# torch with ROCm support is installed from the PyTorch ROCm index, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.4
+# (the Windows ROCm builds used for the measurements here ship as
+#  torch 2.14.0+rocm10.1 with the amd-torch-device-gfx110x / amd-gfx110x packages)
+torch>=2.4
+torchvision
+mmengine>=0.10
+numpy
