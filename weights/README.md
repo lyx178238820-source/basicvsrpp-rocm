@@ -2,9 +2,14 @@
 
 The engine loads a BasicVSR++ GAN checkpoint produced by the Lada training
 pipeline (`lada_mosaic_restoration_model_generic_v1.2.pth`, 74.8 MB, AGPL-3.0
-licensed by the Lada authors). The checkpoint is **not** redistributed here -
-get it from the Lada project releases and drop it in this folder (or anywhere,
-you pass the path explicitly).
+licensed by the Lada authors). The checkpoint is **not** redistributed here.
+
+- Project: <https://codeberg.org/ladaapp/lada>
+- Checkpoint: <https://huggingface.co/ladaapp/lada>
+  (`lada_mosaic_restoration_model_generic_v1.2.pth`)
+
+Download it and drop it in this folder (or anywhere — you pass the path
+explicitly).
 
 ```python
 from basicvsrpp_rocm import BasicVSRPlusPlusEngine
