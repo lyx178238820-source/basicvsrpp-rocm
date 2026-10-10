@@ -148,5 +148,10 @@ python benchmarks/bench_hipgraph.py --weights weights/... --no-graph   # control
   [Hugging Face](https://huggingface.co/ladaapp/lada)); original SPDX headers kept.
 - `engine.py` / `rocm_env.py` were extracted and adapted from the AMD build of
   [jasna](https://github.com/Kruk2/jasna).
+- The mmcv → torchvision deform-conv fallback at the heart of this engine was
+  upstreamed to OpenMMLab/mmagic as
+  [PR #2168](https://github.com/open-mmlab/mmagic/pull/2168).
+
+See [CHANGELOG.md](CHANGELOG.md) for the full change history.
 
 Accordingly this repository is released under **AGPL-3.0**.

@@ -8,4 +8,4 @@ Public interface:
 from basicvsrpp_rocm.engine import BasicVSRPlusPlusEngine
 
 __all__ = ["BasicVSRPlusPlusEngine"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
